@@ -7,8 +7,7 @@ let bttn7 = document.getElementById('bttn7');
 
 
 function getValue(id) {
-    let element = document.getElementById(id).textContent;
-    console.log(id)
+    let element = document.getElementById(id).value;
     console.log(element);
 }
 
